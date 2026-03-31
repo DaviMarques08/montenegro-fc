@@ -1,0 +1,94 @@
+.elenco-secao {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-elenco {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: #D91A14;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.container-elenco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-jogador {
+    background-color: white;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid #f0f0f0;
+}
+
+.card-jogador:hover {
+    transform: translateY(-10px);
+    border-color: #D91A14;
+}
+
+.foto-container {
+    position: relative;
+    height: 300px;
+    background-color: #eee;
+}
+
+.foto-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.numero {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #D91A14;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info-jogador {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-jogador h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.info-jogador p {
+    font-family: 'Montserrat', sans-serif;
+    color: #D91A14;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .container-elenco {
+        gap: 20px;
+    }
+    .card-jogador {
+        width: 100%;
+        max-width: 300px;
+    }
+}

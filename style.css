@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #D91A14;
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.links > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    justify-content: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.escudo {
+    height: 120px;
+    width: auto;
+}
+
+.sobre-titulo {
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.historia {
+    font-size: 20px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+video {
+    object-fit: cover;
+}
+
+.contato {
+    background-color: #D91A14;
+    padding: 80px 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    color: white;
+}
+
+.contato-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contato h2 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contato p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    background-color: rgb(115, 255, 0);
+    color: #ffffff;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.btn-whatsapp:hover {
+    transform: translateY(-8px);
+    background-color: #f0f0f0;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    color: #b01510;
+}
+
+.btn-whatsapp i {
+    margin-right: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.site-footer {
+    background-color: #D91A14;
+    color: white;
+    padding: 60px 20px 20px 20px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-escudo {
+    height: 80px;
+}
+
+.footer-patrocinio-img {
+    height: 80px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links :hover {
+     transform: translateY(-10%);
+}
+
+.footer-social .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-img {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.social-img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links > div:first-child {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .escudo {
+        height: 80px;
+        order: -1;
+    }
+
+    .carrossel {
+        height: 250px;
+    }
+
+    .sobre-titulo {
+        font-size: 20px;
+    }
+
+    .historia {
+        font-size: 16px;
+    }
+
+    .contato h2 {
+        font-size: 26px;
+    }
+
+    .contato p {
+        font-size: 16px;
+    }
+
+    .btn-whatsapp {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}                   
+

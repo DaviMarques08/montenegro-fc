@@ -1,0 +1,177 @@
+.proximo-jogo {
+    background-color: #D91A14;
+    max-width: 900px;      
+    margin: 50px auto;     
+    padding: 40px;
+    border-radius: 20px;   
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2); 
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;               
+    margin-top: 30px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-shield {
+    height: 100px;
+    object-fit: contain;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.match-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+.match-datetime {
+    font-size: 14px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+.score-dash {
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.team-name {
+    margin-top: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.checkin-container {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.checkin-container h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+
+#nome-jogador {
+    padding: 12px 20px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#nome-jogador:focus {
+    border-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+
+#btn-participar {
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #D91A14; 
+    border: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-participar:hover {
+    background-color: #2ecc71;
+    color: white;
+    transform: scale(1.05); 
+}
+
+
+#mensagem-validacao {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 20px; 
+}
+
+.pix-escondido {
+    display: none; 
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease; 
+}
+
+.pix-visivel {
+    display: block; 
+}
+
+.pix-card {
+    background-color: white;
+    color: #333;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 8px solid #2ecc71; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.lista-presenca {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.lista-presenca h3 {
+    font-size: 1.2rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#lista-confirmados {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+}
+
+#lista-confirmados li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
