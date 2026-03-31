@@ -175,3 +175,46 @@ h4 {
     font-size: 0.9rem;
     text-transform: uppercase;
 }
+
+@media (max-width: 600px) {
+    .proximo-jogo {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .scoreboard {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .match-info {
+        order: -1;
+        margin-bottom: 10px;
+    }
+
+    .score-dash {
+        display: none;
+    }
+
+    .team-shield {
+        height: 80px;
+    }
+
+    .input-grupo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nome-jogador {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #btn-participar {
+        width: 100%;
+    }
+
+    #lista-confirmados {
+        grid-template-columns: 1fr;
+    }
+}
