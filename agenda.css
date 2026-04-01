@@ -80,6 +80,25 @@ h4 {
     text-transform: uppercase;
 }
 
+.botao {
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #D91A14; 
+    border: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+     background-color: #2ecc71;
+    color: white;
+    transform: scale(1.05); 
+}
+
 @media (max-width: 600px) {
     .proximo-jogo {
         margin: 10px;
