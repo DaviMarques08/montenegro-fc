@@ -99,6 +99,20 @@ h4 {
     transform: scale(1.05); 
 }
 
+.escudo-placar {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaço entre o escudo e o número */
+}
+
+.gols {
+    font-size: 48px; /* Número bem grande e imponente */
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
 @media (max-width: 600px) {
     .proximo-jogo {
         margin: 10px;
@@ -121,4 +135,10 @@ h4 {
     .team-shield {
         height: 80px;
     } 
+    .gols {
+        font-size: 32px;
+    }
+    .escudo-placar {
+        gap: 8px;
+    }
 }
