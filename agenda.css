@@ -102,11 +102,11 @@ h4 {
 .escudo-placar {
     display: flex;
     align-items: center;
-    gap: 15px; /* Espaço entre o escudo e o número */
+    gap: 15px; 
 }
 
 .gols {
-    font-size: 48px; /* Número bem grande e imponente */
+    font-size: 40px; 
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     color: white;
