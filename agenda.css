@@ -1,5 +1,24 @@
+body {
+    background-color: #d61a13;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/escudo.png');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3; 
+    z-index: -1;
+}
+
 .proximo-jogo {
-    background-color: #D91A14;
+    background-color: #f80d05;
     max-width: 900px;      
     margin: 50px auto;     
     padding: 40px;
@@ -68,17 +87,12 @@ h4 {
     }
 
     .scoreboard {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
     .match-info {
-        order: -1;
         margin-bottom: 10px;
-    }
-
-    .score-dash {
-        display: none;
     }
 
     .team-shield {
