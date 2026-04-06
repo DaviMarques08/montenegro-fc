@@ -113,10 +113,17 @@ h4 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
+.gp {
+    display: flex;
+    justify-items: left;
+
+}
+
 @media (max-width: 600px) {
     .proximo-jogo {
         margin: 10px;
         padding: 20px;
+        font-family: 'oswald', sans-serif;
     }
 
     .scoreboard {
