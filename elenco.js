@@ -2,7 +2,7 @@ const jogadores = [
     {Nome: "Jean", posiçao: "Meia-Atacante", Numero: 10, Foto: "img/jogador1.jpg" },
     {Nome: "Davi Felipe", posiçao: "Volante/Meia", Numero: 19,Foto: "img/jogador1.jpg" },
     {Nome: "Giovani Reis", posiçao: "Volante/Meia", Numero: 8, Foto: "img/jogador1.jpg" },
-    {Nome: "Carlos Adriem", posiçao: "Lateral-Direito", Numero: 21, Foto: "img/jogador1.jpg" },
+    {Nome: "Adriem Santos", posiçao: "Lateral-Direito", Numero: 21, Foto: "img/jogador1.jpg" },
     {Nome: "Ronald", posiçao: "Meia-Atacante", Numero: 7, Foto: "img/jogador1.jpg" },
     {Nome: "Salatiel Junior", posiçao: "Lateral-Direito", Numero: 17, Foto: "img/jogador1.jpg" },
     {Nome: "VT", posiçao: "Zagueiro", Numero: 3, Foto: "img/jogador1.jpg" },
